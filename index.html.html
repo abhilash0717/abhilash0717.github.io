@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenge one</title>
+        <link rel="stylesheet" type="text/css" href="challengeColtOne.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body style="background-color:#aee8fc; font-family:Raleway;">
+          <div class = "container" style="width: 1000px;">
+            <progress value="0" max="100" ></progress>
+              <h1>Challenge #1</h1>
+              <div class="row">
+                  <div class="col-lg-4"   style="padding-left: 50px;">
+                    <div class = stepOne>
+                        <label><span style="font-size: 30px;">Step 1 </span><i class="fa fa-check-circle firsticon" aria-hidden="true"></i>
+                        </label>
+                        <p style="margin: 0;">please type your Email </p>
+                      
+                        <input id = "conone" type="email"  pattern=".+.com" size="30" placeholder="Eg->...@gmail.com" required><br>
+                        <button  onclick = "show()" class = "btn btn-primary btn-large firstpartbutton">Continue</button>
+                    </div>
+                  </div>
+           
+                  <div class = "col-lg-4"  style="padding-left: 80px;" >
+                    <div class = stepTwo>
+                        <div class = "hideone">
+                           <span style="font-size:30px;">Step 2 </span><i class="fa fa-check-circle secondicon" aria-hidden="true"></i>
+                            </span>
+                            <p style="margin-bottom: 7px;">Please type your password</p>
+                       
+                        <input style="margin-bottom: 9px;" id ="contwo"  type="password" placeholder="password" required><br>
+                        <button  onclick = "showone()" class = "btn btn-primary btn-large secondpartbutton">Continue</button>
+                        <button class = "btn btn-light btn-large one">Back</button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class = "col-lg-4" style="padding-left: 120px;">
+                    <div class = stepThree>
+                        <div class = "hidetwo">
+                        <span class="round-tab"><span style="font-size: 30px;">Step 3 </span><i class="fa fa-check-circle thirdicon" aria-hidden="true"></i>
+                        </span>
+                        <p>Finish! Click below to submit</p>
+                        <button id="submit" class = "btn btn-primary btn-large" style="margin: 0;">Submit</button>
+                        <button  style="margin: 0;" class = "btn btn-light btn-large two">Back</button>
+                        </div>
+                    </div>
+                  </div>
+             </div>
+          </div>
+    </body>
+    <script src="challengeColtone.js"></script>
+</html>
