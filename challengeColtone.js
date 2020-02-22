@@ -37,7 +37,7 @@ buttonTwo.addEventListener("click", function(){
 backone.addEventListener("click", function(){
     firstpart.style.display = "none";
     secondpart.style.display = "none";
-    progress.value = "33";
+    progress.value = "0";
     first.style.visibility = "hidden";
 });
 backtwo.addEventListener("click", function(){
